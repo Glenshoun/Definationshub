@@ -2,8 +2,120 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
     tools:context=".Category">
+
+
+        <androidx.gridlayout.widget.GridLayout
+        android:layout_width="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:rowCount="5"
+        android:layout_margin="2dp"
+        app:columnCount="1"
+        android:layout_height="0dp">
+
+<androidx.cardview.widget.CardView
+    android:id="@+id/cvaccounting"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_rowWeight="1"
+        app:layout_columnWeight="1"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="0dp"
+    >
+     <RelativeLayout
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent">
+            <ImageView
+                android:id="@+id/imgaccounting"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/accounting"
+                android:layout_centerInParent="true"/>
+
+         <TextView
+             android:id="@+id/txtaccounting"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/imgaccounting"
+             android:layout_centerInParent="true"
+             android:layout_marginTop="5dp"
+             android:textSize="15dp"
+             android:text="Accounting" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvphysicalscience"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="0dp"
+                >
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                    <ImageView
+                        android:id="@+id/imgphysicalsciences"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/physicalscience"
+                        android:layout_centerInParent="true"/>
+
+                    <TextView
+                        android:id="@+id/txtphyscialsciences"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imgphysicalsciences"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="5dp"
+                        android:textSize="15dp"
+                        android:text="Physical Science" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvbs"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="0dp"
+                >
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                    <ImageView
+                        android:id="@+id/imgbs"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/businessstudies"
+                        android:layout_centerInParent="true"/>
+
+                    <TextView
+                        android:id="@+id/txtbs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imgbs"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="5dp"
+                        android:textSize="15dp"
+                        android:text="Business Studies" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+    </androidx.gridlayout.widget.GridLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

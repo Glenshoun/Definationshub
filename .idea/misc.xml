@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/RatedOriginal-PC/AndroidStudioProjects/DefinationsHub/app/src/main/res/layout/activity_accounting.xml" value="0.14221014492753623" />
+        <entry key="..\:/Users/RatedOriginal-PC/AndroidStudioProjects/DefinationsHub/app/src/main/res/layout/activity_business_studies.xml" value="0.1" />
         <entry key="..\:/Users/RatedOriginal-PC/AndroidStudioProjects/DefinationsHub/app/src/main/res/layout/activity_category.xml" value="0.13134057971014493" />
         <entry key="..\:/Users/RatedOriginal-PC/AndroidStudioProjects/DefinationsHub/app/src/main/res/layout/activity_login.xml" value="0.13134057971014493" />
         <entry key="..\:/Users/RatedOriginal-PC/AndroidStudioProjects/DefinationsHub/app/src/main/res/layout/activity_main.xml" value="0.13134057971014493" />
+        <entry key="..\:/Users/RatedOriginal-PC/AndroidStudioProjects/DefinationsHub/app/src/main/res/layout/activity_physical_science.xml" value="0.14221014492753623" />
         <entry key="..\:/Users/RatedOriginal-PC/AndroidStudioProjects/DefinationsHub/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
         <entry key="..\:/Users/RatedOriginal-PC/AndroidStudioProjects/DefinationsHub/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.10208333333333333" />
       </map>

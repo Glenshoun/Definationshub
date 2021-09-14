@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DefinationsHub">
         <activity
+            android:name=".BusinessStudiesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AgriculturalActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AccountingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PhysicalScienceActivity"
+            android:exported="true" />
+        <activity
             android:name=".Category"
             android:exported="true" />
         <activity

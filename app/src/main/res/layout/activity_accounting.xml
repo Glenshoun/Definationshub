@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:background="@color/white"
+    android:layout_height="fill_parent"
+    tools:context=".AccountingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                android:padding="15dp"
+                android:layout_centerVertical="true"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_baseline_search_24"
+                android:padding="15dp"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ACCOUNTING"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="40dp"
+            android:textAllCaps="true"
+            android:padding="10sp"
+            android:textFontWeight="@integer/material_motion_duration_long_1"
+            android:textColor="@color/orange"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/orange"
+            android:textAlignment="center"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/acdef1"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_centerHorizontal="true"
+                android:text="Meaning of journal"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Journal means chronological record of transactions."
+                android:layout_below="@+id/acdef1"
+                android:layout_centerHorizontal="true"
+                android:padding="5dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/orange"
+            android:textAlignment="center"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/acdef2"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_centerHorizontal="true"
+                android:text="Meaning of ledger"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Ledger is a set of accounts. It contains all accounts of the businessenterprise whether real,nominal, personal."
+                android:layout_below="@+id/acdef2"
+                android:layout_centerHorizontal="true"
+                android:padding="5dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/orange"
+            android:textAlignment="center"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/acdef3"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_centerHorizontal="true"
+                android:text="Accounts Payable
+"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Accounts payable refers to the money a business owes to its suppliers, vendors, or creditors for goods or services bought on credit. A short-term debt that must be paid back quickly to avoid default, accounts payable shows up as a liability on an organization’s balance sheet. An example of accounts payable includes when a restaurant receives a beverage order on credit from an outside supplier.
+                 Accounts payable acts as an IOU to another company"
+                android:layout_below="@+id/acdef3"
+                android:layout_centerHorizontal="true"
+                android:padding="5dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/orange"
+            android:textAlignment="center"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/acdef4"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_centerHorizontal="true"
+                android:text="Accounts Receivable"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Essentially the opposite of accounts payable, accounts receivable refers to the money owed to a business, typically by its customers, for goods or services delivered. An example of accounts receivable includes when a beverage supplier delivers a beverage order on credit to a restaurant.
+                 While the restaurant records that transaction to accounts payable, the beverage supplier records it to accounts receivable and a current asset in its balance sheet."
+                android:layout_below="@+id/acdef4"
+                android:layout_centerHorizontal="true"
+                android:padding="5dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/orange"
+            android:textAlignment="center"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/acdef5"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_centerHorizontal="true"
+                android:text="Balance Sheet"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Balance sheets are financial statements providing snapshots of organizations’ liabilities, assets, and shareholders’ equity at specific moments in time.
+                 Balance sheets represent one type of financial statement used to evaluate companies’ financial health and worth. Accountants use the accounting equation, also known as the balance sheet equation, to create balance sheets: “Assets = Liabilities + Equity.”"
+                android:layout_below="@+id/acdef5"
+                android:layout_centerHorizontal="true"
+                android:padding="5dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/orange"
+            android:textAlignment="center"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/acdef6"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_centerHorizontal="true"
+                android:text="Capital"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Capital refers to a person’s or organization’s financial assets. Capital may include funds in deposit accounts or money from financing sources. Working capital refers to a business’s liquid capital, which the owner can use to pay for day-to-day or ongoing expenses.
+                 A company’s working capital indicates its overall health and ability to meet financial obligations due within a year."
+                android:layout_below="@+id/acdef6"
+                android:layout_centerHorizontal="true"
+                android:padding="5dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/orange"
+            android:textAlignment="center"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/acdef7"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_centerHorizontal="true"
+                android:text="Cash Flow"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Cash flow is the total amount of money that comes into and goes out of a business. Net cash flow refers to the sum of all money a business makes. Cash flow statements are financial statements, and they include all cash a business receives from its operations, investments, and financing."
+                android:layout_below="@+id/acdef7"
+                android:layout_centerHorizontal="true"
+                android:padding="5dp"/>
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

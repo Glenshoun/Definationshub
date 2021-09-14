@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BusinessStudiesActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                android:padding="15dp"
+                android:layout_centerVertical="true"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_baseline_search_24"
+                android:padding="15dp"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Business Studies"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="40dp"
+            android:textAllCaps="true"
+            android:padding="10sp"
+            android:textFontWeight="@integer/material_motion_duration_long_1"
+            android:textColor="@color/orange"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/orange"
+            android:textAlignment="center"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/bsdef1"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_centerHorizontal="true"
+                android:text="Skills Development
+Act/SDA"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="The main aim of this Act is to improve the skill levels of people who are already
+employed in the business."
+                android:layout_below="@+id/bsdef1"
+                android:layout_centerHorizontal="true"
+                android:padding="5dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/orange"
+            android:textAlignment="center"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/bsdef2"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_centerHorizontal="true"
+                android:text="Skills Development
+Levy/SDL
+"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="It was introduced to ensure that businesses contribute to the development of skills
+of employees.
+"
+                android:layout_below="@+id/bsdef2"
+                android:layout_centerHorizontal="true"
+                android:padding="5dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/orange"
+            android:textAlignment="center"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/bsdef3"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_centerHorizontal="true"
+                android:text="PDI’s
+"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Previously Disadvantaged Individuals or designated group."
+                android:layout_below="@+id/bsdef3"
+                android:layout_centerHorizontal="true"
+                android:padding="5dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/orange"
+            android:textAlignment="center"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/bsdef4"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_centerHorizontal="true"
+                android:text="SETA’s"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text=" SETA’s were established in order to implement and monitor the implementation of the
+            Skills Development Act.
+            "
+                android:layout_below="@+id/bsdef4"
+                android:layout_centerHorizontal="true"
+                android:padding="5dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/orange"
+            android:textAlignment="center"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/bsdef5"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_centerHorizontal="true"
+                android:text="Labour Relations
+Act/LRA"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="This Act was introduced to promote simple procedures for the resolution of labour
+disputes in the workplace."
+                android:layout_below="@+id/bsdef5"
+                android:layout_centerHorizontal="true"
+                android:padding="5dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/orange"
+            android:textAlignment="center"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/bsdef6"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_centerHorizontal="true"
+                android:text="Collective bargaining"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Negotiations between employers’ association and trade unions on matters
+such as wages/conditions of employment. "
+                android:layout_below="@+id/bsdef6"
+                android:layout_centerHorizontal="true"
+                android:padding="5dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/orange"
+            android:textAlignment="center"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/bsdef7"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_centerHorizontal="true"
+                android:text="Collective agreement"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Agreement between the employer organisations and trade unions."
+                android:layout_below="@+id/bsdef7"
+                android:layout_centerHorizontal="true"
+                android:padding="5dp"/>
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
